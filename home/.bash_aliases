@@ -1,0 +1,7 @@
+alias pdflat='pdflatex --halt-on-error'
+alias ping5='ping -c5'
+alias g='xdg-open'
+alias psgrep='ps -ef | grep'
+alias 88fm='vlc "http://switch3.castup.net/cunet/gm.asp?ai=31&ar=88FM" &'
+alias sshXfast='ssh -c arcfour,blowfish-cbc -XC'
+alias grepn='grep -n'
