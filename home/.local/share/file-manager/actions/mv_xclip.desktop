@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Type=Action
+ToolbarLabel=pastebasname
+Name=pastebasname
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=mv_xclip_ext.sh %f %d %x
+Name=Default profile

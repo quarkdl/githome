@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Type=Action
+ToolbarLabel=copybasename
+Name=copybasename
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=cp_xclip.sh %w
+Name=Default profile
