@@ -1,3 +1,6 @@
+#support true division in python2 too
+from __future__ import division
+
 try:
     import readline
 except ImportError:
@@ -6,5 +9,3 @@ else:
     import rlcompleter
     readline.parse_and_bind("tab: complete")
 
-#support true division in python2 too
-from __future__ import division
