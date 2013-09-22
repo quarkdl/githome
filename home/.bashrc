@@ -4,6 +4,8 @@
 
 #Pythonstartup
 export PYTHONSTARTUP=$HOME/.config/pythonstartup
+#  vim as editor
+export EDITOR=/usr/bin/vim
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
